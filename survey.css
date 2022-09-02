@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(./background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    height: 33px;
+}
+
+header {
+    background-color: powderblue;
+    color: rgb(85, 85, 85);
+    padding: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.survey {
+    width: 80%;
+    margin: 20px auto;
+    padding-bottom: 2.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: royalblue;
+    color: white;
+    height: 300px auto;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(red, green, blue, alpha);
+}
+
+.survey a {
+    text-decoration: none;
+    color : white;
+}
+.survey h3 {
+    margin: 8px;
+    padding-top: 10px;
+}
+
+.survey li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.survey li:hover {
+    background: cornflowerblue;
+    width: 150px;
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.end {
+    display: none;
+    background: royalblue;
+    color: white;
+    width: 80%;
+    margin: 5% auto;
+    padding: 20px 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(red, green, blue, alpha);
+}
+
+.end h1 {
+    margin: 5px;
+}
+
+.end p {
+    padding: 10px;
+}
+
+.end a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background: white;
+
+    outline: none;
+}
+
+.end a:hover {
+    box-shadow: 1px 1px 7px rgba(red, green, blue, alpha);
+    transition: 3s;
+}
+/* Display Change Properties */
+
+.q0 {
+    display: block;
+}
+.q1 {
+    display: none;
+}
+
+.q2 {
+    display: none;
+}
+
+.q3 {
+    display: none;
+}
+
+.q4 {
+    display: none;
+}
+
+.q5 {
+    display: none;
+}
+
+.q6 {
+    display: none;
+}
+
+.q7 {
+    display: none;
+}
+
+.q8 {
+    display: none;
+}
+
+.q9 {
+    display: none;
+}
+
+.q10 {
+    display: none;
+}
+
+.q11 {
+    display: none;
+}
